@@ -183,12 +183,16 @@ export default function Header() {
               </p>
             </div>
             <div className="space-x-4 flex mt-4">
-              <Button variant="primary" className="h-11" text="Contact Me" />
+              <Button
+                variant="primary"
+                className="h-11 text-sm"
+                text="Contact"
+              />
               <a
                 href="#"
                 className="inline-flex items-center h-11 px-4 text-sm font-semibold text-gray-900 border rounded hover:bg-gray-100"
               >
-                View Projects
+                Projects
               </a>
 
               <div className="flex gap-4">
