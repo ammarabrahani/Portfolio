@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="text-sm font-semibold text-gray-900 dark:text-white">
-            © {new Date().getFullYear()} Your Name
+            © {new Date().getFullYear()} Ammar Yousuf Abrahani!!
           </p>
           <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
             Built with Next.js & Tailwind CSS
