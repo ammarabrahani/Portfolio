@@ -24,3 +24,53 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.icon-btn {
+  @apply inline-flex items-center justify-center h-11 w-11 rounded-md
+         border border-gray-700 text-gray-400
+         transition-all duration-300 ease-out
+         hover:text-blue-400 hover:border-blue-400 hover:bg-blue-400/10
+         hover:-translate-y-1
+         hover:shadow-[0_8px_20px_rgba(59,130,246,0.25)];
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  }
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.wave-emoji {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave 1.6s ease-in-out infinite;
+}
