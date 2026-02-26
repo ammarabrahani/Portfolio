@@ -88,9 +88,9 @@ export default function ProjectsSection() {
       key={p.title}
       className="
         group rounded-2xl bg-white/70 backdrop-blur-md
-        border border-white/60 shadow-sm
+        border-0 border-white/60 shadow-sm
         transition-all duration-300
-        hover:-translate-y-1 hover:shadow-2xl
+        hover:-translate-y-1 hover:shadow-2xl cursor-pointer
       "
     >
       {/* Image */}
